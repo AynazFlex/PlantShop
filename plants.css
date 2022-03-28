@@ -1,0 +1,100 @@
+.plants__items, .plants__head {
+    margin: 0 56px;
+}
+
+.plants__items {
+    display: flex;
+    margin-bottom: 349px;
+    justify-content: space-between;
+}
+
+.plants__head {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.plants__title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.plants__dropdown {
+    position: relative;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    padding-right: 24px;
+    cursor: pointer;
+}
+
+.plants__drop-items {
+    list-style-type: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0px;
+    width: 100%;
+    background: #FFFF;
+}
+
+.plants__drop-items .plants__drop-item:hover {
+    background: rgb(204, 204, 204);
+}
+
+.plants__drop-item {
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding: 8px 12px;
+}
+
+.plants__drop-item_selected {
+    display: block !important;
+}
+
+.plants__dropdown::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    width: 12px;
+    height: 12px;
+    background: url('/image/plants/drop.png') 50%/6px 3px no-repeat;
+}
+
+.plants__dropdown_close .plants__drop-item {
+    display: none;
+}
+
+.plants__item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.plants__item-name {
+    font: inherit;
+    margin: 8px 0;
+    font-weight: 400;
+}
+
+.plants__item-price {
+    font: inherit;
+    font-weight: 600;
+}
+
+.plants__item-image {
+    width: 217px;
+    height: 217px;
+}

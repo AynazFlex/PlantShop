@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- google шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> <!-- шрифт Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700;900&display=swap" rel="stylesheet"> <!-- шрифт Nunito -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> <!-- шрифт PT Sans -->
+    <link rel="stylesheet" href="style.css"> <!-- общие стили и стили для шапки -->
+    <link rel="stylesheet" href="service.css"> <!-- стили для сервиса -->
+    <link rel="stylesheet" href="plants.css"> <!-- стили для растений -->
+    <link rel="stylesheet" href="modal.css"> <!-- стили для модального окна -->
+    <script src="main.js" defer></script> <!-- JavaScript файл -->
+    <title>Test</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- шапка -->
+        <header class="header">
+            <img class="header__image" src="/image/header/header-img.jpg" alt="#">
+            <div class="header__content">
+                <div class="header__info">
+                    <h1 class="header__title">Kembang Flower Mantap</h1>
+                    <p class="header__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                </div>
+                <div class="header__next-previous-buttons">
+                    <div class="header__previous-items">
+                        <span class="header__previous-item-1">Previous</span>
+                        <div class="header__previous-item-2">Rahasia Plant</div>
+                    </div>
+                    <div class="header__next-items">
+                        <span class="header__next-item-1">Next</span>
+                        <div class="header__next-item-2">Kaktus Plant</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__logo"></div>
+            <button class="header__form-button">Форма</button>
+        </header>
+        <!-- карточки сервиса -->
+        <div class="service">
+            <div class="service__items">
+                <div class="servise__item">
+                    <div class="servise__title">
+                        <img src="/image/service/fast.png" class="servise__title-image" alt="#"/>
+                        <h3 class="servise__title-text">Fast<br>Delivery</h3>
+                    </div>
+                    <p class="servise__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                </div>
+                <div class="servise__item">
+                    <div class="servise__title">
+                        <img src="/image/service/headphones.png" class="servise__title-image" alt="#"/>
+                        <h3 class="servise__title-text">Great Customer<br>Service</h3>
+                    </div>
+                    <p class="servise__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                </div>
+                <div class="servise__item">
+                    <div class="servise__title">
+                        <img src="/image/service/plant.png" class="servise__title-image" alt="#"/>
+                        <h3 class="servise__title-text">Original<br>Plants</h3>
+                    </div>
+                    <p class="servise__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                </div>
+                <div class="servise__item">
+                    <div class="servise__title">
+                        <img src="/image/service/dollar-symbol.png" class="servise__title-image" alt="#"/>
+                        <h3 class="servise__title-text">Affordable<br>Price</h3>
+                    </div>
+                    <p class="servise__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                </div>
+            </div>
+        </div>
+        <!-- карточки растений -->
+        <div class="plants">
+            <div class="plants__head">
+                <h2 class="plants__title">Featured Plants</h2>
+                <div tabindex="0" class="plants__dropdown plants__dropdown_close">
+                    <div class="plants__drop-item plants__drop-item_selected">Cheaper First</div>
+                    <ul class="plants__drop-items">
+                        <li class="plants__drop-item">Cheaper First</li>
+                        <li class="plants__drop-item">Cheaper Second</li>
+                        <li class="plants__drop-item">Cheaper Third</li>
+                        <li class="plants__drop-item">Cheaper Fourth</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plants__items">
+                <div class="plants__item">
+                    <img src="/image/plants/kaktus.jpg" alt="#" class="plants__item-image">
+                    <h5 class="plants__item-name">Kaktus Plants</h5>
+                    <p class="plants__item-price">IDR 85.000</p>
+                </div>
+                <div class="plants__item">
+                    <img src="/image/plants/landak.jpg" alt="#" class="plants__item-image">
+                    <h5 class="plants__item-name">Landak Plants</h5>
+                    <p class="plants__item-price">IDR 85.000</p>
+                </div>
+                <div class="plants__item">
+                    <img src="/image/plants/kecubung1.jpg" alt="#" class="plants__item-image">
+                    <h5 class="plants__item-name">Kecubung Plants</h5>
+                    <p class="plants__item-price">IDR 85.000</p>
+                </div>
+                <div class="plants__item">
+                    <img src="/image/plants/kecubung2.jpg" alt="#" class="plants__item-image">
+                    <h5 class="plants__item-name">Kecubung Plants</h5>
+                    <p class="plants__item-price">IDR 85.000</p>
+                </div>
+                <div class="plants__item">
+                    <img src="/image/plants/kecubung3.jpg" alt="#" class="plants__item-image">
+                    <h5 class="plants__item-name">Kecubung Plants</h5>
+                    <p class="plants__item-price">IDR 85.000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- модальное окно с формой -->
+    <div class="modal-window modal-window_close">
+        <div class="modal-window__form-panel">
+            <img src="/image/modal/modal.png" alt="address" class="modal-window__img-address">
+            <h3 class="modal-window__title">Форма сайта</h3>
+            <p class="modal-window__subtitle">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
+            <form class="modal-window__form">
+                <input type="text" name="name" id="name" placeholder="Имя">
+                <input type="tel" name="tel" id="tel" placeholder="Номер телефона" >
+                <div class="modal-window__buttons">
+                    <span class="modal-window__button modal-window__button_cancel">Отменить</span>
+                    <input class="modal-window__button" type="submit" value="Отправить">
+                </div>
+                <div style="display:none" class="modal-window__warning"></div>
+            </form>
+            <img src="/image/modal/close.svg" alt="#" class="modal-window__close">
+        </div>
+        <img style="display:none" src="/image/modal/pngwing.com.png" alt="spinner" class="modal-window__load-spinner">
+    </div>
+</body>
+</html>

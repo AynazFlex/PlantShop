@@ -1,0 +1,112 @@
+.modal-window {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background: rgba(229, 229, 229, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.modal-window_close {
+    display: none;
+}
+
+.modal-window__form-panel {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    width: 470px;
+    background: #FFFFFF;
+    box-shadow: 3.29698px 3.84647px 16.4849px 3.84647px rgba(155, 155, 155, 0.25);
+    border-radius: 8.37862px;
+    padding: 40px;
+}
+
+.modal-window__close {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    cursor: pointer;
+}
+
+.modal-window__img-address {
+    width: 90.74px;
+    height: 90.74px;
+}
+
+.modal-window__title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 121.5%;
+    color: #000000;
+    margin: 19px 0 9px;
+}
+
+.modal-window__subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 121.5%;
+    letter-spacing: -0.025em;
+    color: #454444;
+    margin-bottom: 39px;
+}
+
+#name, #tel {
+    font-family: inherit;
+    display: block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.630345px solid #DBDEDF;
+    box-sizing: border-box;
+    border-radius: 15.7586px;
+    padding: 9px 9px 9px 16px;
+    font-weight: 400;
+    font-size: 17.6497px;
+    line-height: 23px;
+    margin-bottom: 14px;
+}
+
+input::placeholder {
+    color: #B5B8BE;
+}
+
+.modal-window__button {
+    font-family: inherit;
+    background: #FFFFFF;
+    border: 0.630345px solid #CCE1FE;
+    box-sizing: border-box;
+    box-shadow: 0px 1.48681px 2.97363px rgba(0, 0, 0, 0.15);
+    border-radius: 15.7586px;
+    align-items: center;
+    padding: 8.82483px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    cursor: pointer;
+    width: 186px;
+    background: #E8F2FF;
+}
+
+.modal-window__button_cancel {
+    background: #FFFFFF;
+}
+
+.modal-window__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-window__warning {
+    position: fixed;
+    color: red;
+    border: 1px solid red;
+    padding: 4px;
+    background: #FFFFFF;
+}
