@@ -51,7 +51,7 @@ formName.oninput = () => { // валидация формы для Имени
 }
 
 formTel.oninput = () => { // валидация формы для Телефона
-    if(!(formTel.value.slice(0, 2) == '+7' && formTel.value.length == 12) && !(formTel.value[0] == '8' && formTel.value.length == 11)) {
+    if(!(formTel.value.slice(0, 2) == '+7' && formTel.value.length == 12 && !isNaN(formTel.value.slice(1))) && !(formTel.value[0] == '8' && formTel.value.length == 11 && !isNaN(formTel.value))) {
         warningModalActive(formTel, 'телефон должен начинаться с +7 или 8, за которыми следуют еще 10 цифр')
         formTel.onblur = () => {
             formTel.focus();
